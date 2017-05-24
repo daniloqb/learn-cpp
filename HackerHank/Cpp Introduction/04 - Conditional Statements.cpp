@@ -24,13 +24,14 @@ If , then print the lowercase English word corresponding to the number
 
 #include <iostream>
 #include <cstdio>
+#include <vector>
 
 using namespace std;
 
 
 int main(){
-const char * number_names[9] = {"one","two","three","four","five","six","seven","eight","nine"};
-
+//const char * number_names[9] = {"one","two","three","four","five","six","seven","eight","nine"};
+std::vector<string> number_names= {"one","two","three","four","five","six","seven","eight","nine"};;
 
 int n;
 cin >> n;
