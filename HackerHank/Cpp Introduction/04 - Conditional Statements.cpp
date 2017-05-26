@@ -31,7 +31,7 @@ using namespace std;
 
 int main(){
 //const char * number_names[9] = {"one","two","three","four","five","six","seven","eight","nine"};
-std::vector<string> number_names= {"one","two","three","four","five","six","seven","eight","nine"};;
+std::vector<std::string> number_names= {"one","two","three","four","five","six","seven","eight","nine"};;
 
 int n;
 cin >> n;
